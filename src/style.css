@@ -1,6 +1,6 @@
 :root {
   --light-background-color: rgba(186, 252, 239, 0.2);
-  --light-green-color: rgb(220, 247, 244);
+  --light-green-color: rgb(204, 252, 237);
   --header-font: "Playfair Display", serif;
   --paragraph-font: "Poppins", sans-serif;
 }
@@ -24,14 +24,30 @@ h2 {
   color: #808b97;
   font-size: 24px;
   font-family: var(--paragraph-font);
+  font-weight: 500px;
   margin: 30px 0;
 }
 .btn-black {
   padding: 20px 20px;
   background: rgb(45, 43, 43);
   color: var(--light-green-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .btn-black:hover {
   background: black;
   color: var(--light-green-color);
+}
+
+.btn-light-green {
+  background: var(--light-green-color);
+  border-color: var(--light-green-color);
+  padding: 15px 15px;
+  color: #272343;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-light-green:hover {
+  color: #272343;
+  background: var(--light-green-color);
+  font-weight: 500;
 }
