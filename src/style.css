@@ -1,4 +1,37 @@
+:root {
+  --light-background-color: rgba(186, 252, 239, 0.2);
+  --light-green-color: rgb(220, 247, 244);
+  --header-font: "Playfair Display", serif;
+  --paragraph-font: "Poppins", sans-serif;
+}
+.hero {
+  background: var(--light-background-color);
+  padding: 150px 15px;
+}
+.hero p {
+  font-size: 36px;
+  font-family: var(--paragraph-font);
+  color: #272343;
+  margin-bottom: 0;
+}
 h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 54px;
+  font-family: var(--header-font);
+  font-size: 72px;
+  line-height: 1.5;
+  color: #272343;
+}
+h2 {
+  color: #808b97;
+  font-size: 24px;
+  font-family: var(--paragraph-font);
+  margin: 30px 0;
+}
+.btn-black {
+  padding: 20px 20px;
+  background: black;
+  color: var(--light-green-color);
+}
+.btn-black:hover {
+  background: black;
+  color: rgb(10, 88, 202);
 }
