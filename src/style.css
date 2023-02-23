@@ -14,6 +14,34 @@
   color: #272343;
   margin-bottom: 0;
 }
+.about-page {
+  padding: 80px 15px;
+}
+.hello-cat {
+  max-width: 100px;
+}
+.about-page h1 {
+  font-family: var(--header-font);
+  font-size: 52px;
+  line-height: 1.5;
+  color: #272343;
+}
+.about-page h1 span {
+  font-size: 38px;
+}
+.about-page h2 {
+  font-size: 22px;
+  font-family: var(--paragraph-font);
+  font-weight: 500px;
+}
+
+.about-page p {
+  font-size: 16px;
+}
+.about-footer {
+  background: var(--light-background-color);
+}
+
 h1 {
   font-family: var(--header-font);
   font-size: 72px;
@@ -86,5 +114,8 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-page {
+    padding: 10px 15px;
   }
 }
