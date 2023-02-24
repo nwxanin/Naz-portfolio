@@ -4,12 +4,10 @@
   --header-font: "Playfair Display", serif;
   --paragraph-font: "Poppins", sans-serif;
 }
-nav {
-  margin-right: 30px;
-}
+
 nav ul {
   line-height: 70px;
-  margin: 0;
+  margin: 0 40px 0 0;
   padding: 0;
 }
 nav li {
@@ -34,6 +32,7 @@ nav li.active a {
 .logo {
   width: 100px;
 }
+
 .hero {
   background: var(--light-background-color);
   padding: 90px 15px;
@@ -146,7 +145,7 @@ p {
   font-family: sans-serif;
 }
 @media (max-width: 960px) {
-  nav {
+  nav ul {
     margin-right: 10px;
   }
   nav li {
