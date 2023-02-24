@@ -4,13 +4,35 @@
   --header-font: "Playfair Display", serif;
   --paragraph-font: "Poppins", sans-serif;
 }
+nav {
+  margin-right: 30px;
+}
 nav ul {
+  line-height: 70px;
   margin: 0;
   padding: 0;
 }
 nav li {
+  margin-left: 35px;
   display: inline;
   list-style: none;
+}
+nav a {
+  text-decoration: none;
+  transition: all 0.2s ease;
+  color: #9597ad;
+}
+nav li a:hover {
+  color: rgb(5, 72, 97);
+  background: rgb(223, 254, 240);
+  border-radius: 4px;
+}
+nav li.active a {
+  text-decoration: underline;
+  color: #272343;
+}
+.logo {
+  width: 100px;
 }
 .hero {
   background: var(--light-background-color);
@@ -72,6 +94,7 @@ h3 {
 p {
   font-family: var(--paragraph-font);
 }
+
 .btn-black {
   padding: 20px 20px;
   background: rgb(45, 43, 43);
@@ -123,6 +146,16 @@ p {
   font-family: sans-serif;
 }
 @media (max-width: 960px) {
+  nav {
+    margin-right: 10px;
+  }
+  nav li {
+    margin-left: 15px;
+  }
+  .logo {
+    height: 85%;
+  }
+
   .hero {
     padding: 75px 7px;
   }
