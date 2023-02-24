@@ -4,9 +4,17 @@
   --header-font: "Playfair Display", serif;
   --paragraph-font: "Poppins", sans-serif;
 }
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
 .hero {
   background: var(--light-background-color);
-  padding: 150px 15px;
+  padding: 90px 15px;
 }
 .hero p {
   font-size: 36px;
@@ -73,6 +81,17 @@ p {
 .btn-black:hover {
   background: black;
   color: var(--light-green-color);
+}
+.btn-black:focus {
+  background: black;
+  color: var(--light-green-color);
+}
+.btn-light-green:focus {
+  color: #272343;
+  background: var(--light-green-color);
+}
+.btn-learn-more:focus {
+  border-color: #3e3768aa;
 }
 
 .btn-light-green {
