@@ -14,7 +14,7 @@ nav {
 
 nav li a:hover {
   color: #2b7f06 !important;
-  background: #c4e8b4;
+  background: #c4e8b4 !important;
   border-radius: 4px;
   text-decoration: underline;
 }
@@ -68,7 +68,6 @@ nav li a:hover {
 h1 {
   font-family: var(--header-font);
   font-size: 72px;
-  line-height: 1.5;
   color: #272343;
 }
 h2 {
@@ -81,12 +80,56 @@ h3 {
   font-family: var(--header-font);
   font-size: 36px;
 }
+h4 {
+  font-family: var(--header-font);
+  font-size: 30px;
+  line-height: 2;
+  color: #272343;
+}
+
 p {
   font-family: var(--paragraph-font);
 }
 footer,
 .coder-cat {
   background-color: rgb(247, 255, 244);
+}
+footer i {
+  font-size: 18px;
+}
+
+.social-media,
+.contact-links {
+  color: #123901;
+  background: rgb(247, 255, 244);
+  transition: all 100ms ease-in-out;
+}
+.contact-links:hover {
+  border: 2px solid #123901;
+}
+.social-media a,
+.contact-links a {
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  font-size: 14px;
+  line-height: 1.5;
+  color: #272343;
+}
+
+.social-media a:hover,
+.contact-links a:hover {
+  color: #272343;
+  text-decoration: underline;
+}
+
+.contact-links {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.contact-links i {
+  font-size: 40px;
 }
 
 .btn-black {
@@ -132,11 +175,6 @@ footer,
 .project-img {
   padding: 10px 10px;
   background-color: var(--light-background-color);
-}
-
-.social-media {
-  color: #123901;
-  background: rgb(247, 255, 244);
 }
 
 .btn-learn-more {
@@ -185,5 +223,8 @@ footer,
   }
   .content-section {
     padding: 10px 30px;
+  }
+  .kitten {
+    width: 100px;
   }
 }
