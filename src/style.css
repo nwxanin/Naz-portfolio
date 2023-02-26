@@ -4,30 +4,23 @@
   --header-font: "Playfair Display", serif;
   --paragraph-font: "Poppins", sans-serif;
 }
+nav {
+  background: rgba(241, 255, 235, 0.718);
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(4px);
+  position: fixed;
+}
 
-nav ul {
-  line-height: 70px;
-  margin: 0 40px 0 0;
-  padding: 0;
-}
-nav li {
-  margin-left: 35px;
-  display: inline;
-  list-style: none;
-}
-nav a {
-  text-decoration: none;
-  transition: all 0.2s ease;
-  color: #9597ad;
-}
 nav li a:hover {
-  color: rgb(5, 72, 97);
-  background: rgb(223, 254, 240);
+  color: #2b7f06 !important;
+  background: #c4e8b4;
   border-radius: 4px;
-}
-nav li.active a {
   text-decoration: underline;
-  color: #272343;
+}
+.dropdown-menu {
+  background: rgba(241, 255, 235, 0.718);
+  backdrop-filter: blur(4px);
 }
 .logo {
   width: 100px;
@@ -43,6 +36,7 @@ nav li.active a {
   color: #272343;
   margin-bottom: 0;
 }
+
 .content-section {
   padding: 80px 15px;
 }
@@ -70,9 +64,6 @@ nav li.active a {
 .content-section p span {
   font-size: 14px;
 }
-.about-footer {
-  background: var(--light-background-color);
-}
 
 h1 {
   font-family: var(--header-font);
@@ -92,6 +83,10 @@ h3 {
 }
 p {
   font-family: var(--paragraph-font);
+}
+footer,
+.coder-cat {
+  background-color: rgb(247, 255, 244);
 }
 
 .btn-black {
@@ -139,6 +134,11 @@ p {
   background-color: var(--light-background-color);
 }
 
+.social-media {
+  color: #123901;
+  background: rgb(247, 255, 244);
+}
+
 .btn-learn-more {
   border-color: #3e3768aa;
   font-size: 12px;
@@ -157,6 +157,9 @@ p {
 
   .hero {
     padding: 75px 7px;
+  }
+  .coder-cat {
+    background: none;
   }
 
   h1,
