@@ -97,6 +97,14 @@ footer,
 footer i {
   font-size: 18px;
 }
+footer .coding-icon {
+  font-size: 16px;
+}
+
+footer {
+  padding: 24px 48px;
+  margin-top: 48px;
+}
 
 .social-media,
 .contact-links {
@@ -208,6 +216,14 @@ footer i {
 
   h2 {
     font-size: 20px;
+  }
+
+  footer {
+    padding: 10px 30px;
+    margin: 0;
+  }
+  .social-media {
+    text-align: center !important;
   }
 
   .content-section p {
